@@ -4,6 +4,7 @@ import './App.css';
 import ModalConductor from './components/ModalConductor';
 import SignInModal from './components/SignInModal';
 import ModalWrapper from './components/ModalWrapper';
+import BoxDetailsModal from './components/BoxDetailsModal';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <ModalConductor/>
           <SignInModal/>
           <ModalWrapper/>
+          <BoxDetailsModal/>
           </div>
 
       </div>
